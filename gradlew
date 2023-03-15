@@ -65,6 +65,8 @@
 # Attempt to set APP_HOME
 
 # Resolve links: $0 may be a link
+chmod +x gradlew
+
 app_path=$0
 
 # Need this for daisy-chained symlinks.
@@ -113,7 +115,6 @@ case "$( uname )" in                #(
   MSYS* | MINGW* )  msys=true    ;; #(
   NONSTOP* )        nonstop=true ;;
 esac
-
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
 
