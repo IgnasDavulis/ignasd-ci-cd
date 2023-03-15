@@ -9,6 +9,6 @@ RUN ./gradlew --version
 # Copy the project files
 COPY . /app
 # Build the project
-RUN ./gradlew build
+RUN chmod +x ./gradlew
 # Set the startup command
 CMD ["java", "-jar", "build/libs/message.jar"]
